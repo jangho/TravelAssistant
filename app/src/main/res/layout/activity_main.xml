@@ -10,12 +10,31 @@
     <include layout="@layout/upper_box"/>
 
     <LinearLayout
+        android:id="@+id/travelNameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#006600"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/addtravelName"
+            android:textColor="#fff"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textStyle="bold|italic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:orientation="vertical"
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <Button
+            android:id="@+id/btn_start"
             android:layout_width="200dp"
             android:layout_height="100dp"
             android:background="#003300"
@@ -26,6 +45,20 @@
             android:textColor="#fff"
             android:textAlignment="center"
             android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btn_finish"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:background="#003300"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:text="Finish"
+            android:textSize="50sp"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:visibility="gone"/>
 
     </LinearLayout>
 

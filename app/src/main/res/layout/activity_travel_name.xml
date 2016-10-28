@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="60dp"
-    android:background="#006600">
+    android:layout_height="60dp">
 
     <TextView
         android:id="@+id/addtravelName"
-        android:textColor="#fff"
+        android:textColor="@color/PrimaryText"
         android:textSize="30sp"
         android:gravity="center"
         android:textStyle="bold|italic"

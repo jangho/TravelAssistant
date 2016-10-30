@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     TextView addtravelName;
     Button showDialog;
-    dialog_popup dialog_popup;
+    DialogPopup DialogPopup;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,13 +26,13 @@ public class MainActivity extends AppCompatActivity {
         addtravelName = (TextView) findViewById(R.id.addtravelName);
         showDialog = (Button) findViewById(R.id.btn_start);
 
-        dialog_popup = new dialog_popup(MainActivity.this);
-        dialog_popup.setTitle("여행명 입력"); //다이얼로그 타이틀 설정
+        DialogPopup = new DialogPopup(MainActivity.this);
+        DialogPopup.setTitle("여행명 입력"); //다이얼로그 타이틀 설정
 
-        dialog_popup.setOnDismissListener(new DialogInterface.OnDismissListener() {
+        DialogPopup.setOnDismissListener(new DialogInterface.OnDismissListener() {
             @Override
             public void onDismiss(DialogInterface dialogInterface) {
-                addtravelName.setText(dialog_popup.getTravelName()); // 커스텀 다이얼로그로부터 여행지 이름 얻어옴
+                addtravelName.setText(DialogPopup.getTravelName()); // 커스텀 다이얼로그로부터 여행지 이름 얻어옴
                 View view = findViewById(R.id.btn_finish);
                 view.setVisibility(View.VISIBLE);
                 LinearLayout layout = (LinearLayout) findViewById(R.id.travelNameLayout);
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        dialog_popup.setOnCancelListener(new DialogInterface.OnCancelListener() {
+        DialogPopup.setOnCancelListener(new DialogInterface.OnCancelListener() {
             @Override
             public void onCancel(DialogInterface dialogInterface) {
                 Toast.makeText(getApplicationContext(), "입력을 취소하였습니다.", Toast.LENGTH_SHORT).show();
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         showDialog.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                dialog_popup.show();
+                DialogPopup.show();
             }
         });
     }

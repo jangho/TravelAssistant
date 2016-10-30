@@ -3,7 +3,7 @@ package com.example.audacia.sample;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-public class travel_name extends AppCompatActivity {
+public class TravelName extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

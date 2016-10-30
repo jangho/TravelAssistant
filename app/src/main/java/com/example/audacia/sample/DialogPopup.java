@@ -8,12 +8,12 @@ import android.view.*;
 import android.widget.*;
 
 
-public class dialog_popup extends Dialog implements OnTouchListener {
+public class DialogPopup extends Dialog implements OnTouchListener {
     private EditText travelName;
     private Button addOK, addCancel;
     private String _travelName;
 
-    public dialog_popup(Context context){
+    public DialogPopup(Context context){
         super(context);
     }
 

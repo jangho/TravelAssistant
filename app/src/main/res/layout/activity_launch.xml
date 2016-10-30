@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.audacia.sample.LaunchActivity"
-    android:background="#00FFFF"
+    android:background="@color/PrimaryColor"
     android:orientation="vertical"
     android:gravity="center">
 
@@ -14,9 +14,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
+
         <ImageView
             android:scaleType="centerInside"
-            android:src="@drawable/app_img_launch"
+            android:src="@drawable/app_img_upper_box"
             android:layout_width="200dp"
             android:layout_height="200dp" />
 
@@ -24,8 +25,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="My Travel Diary"
-            android:textColor="#000"
+            android:text="Travel Photo Album"
+            android:textColor="@color/PrimaryText"
             android:textAlignment="center"
             android:textSize="28sp"
             android:textStyle="bold|italic"/>

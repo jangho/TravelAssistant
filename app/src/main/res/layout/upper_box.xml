@@ -2,22 +2,24 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="60dp"
-    android:background="#006666">
+    android:background="@color/PrimaryColor">
 
+<!--
     <ImageButton
         android:layout_alignParentRight="true"
         android:src="@drawable/app_img_upper_box"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:background="#006666"/>
+        android:background="@color/AccentColor"/>
+-->
 
     <TextView
-        android:textColor="#fff"
-        android:textSize="30sp"
-        android:gravity="center"
-        android:text="My Travel Diary"
-        android:textStyle="bold|italic"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Travel Photo Album"
+        android:textColor="@color/PrimaryText"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
 
 </RelativeLayout>

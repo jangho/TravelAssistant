@@ -2,85 +2,85 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="/Users/Audacia/AndroidStudioProjects/MyRoadMap/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
+        is-multidex="true"
+        jar="/Users/Jan/AndroidStudioProjects/TravelAssistant/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
-        <dex dex="/Users/Audacia/AndroidStudioProjects/MyRoadMap/app/build/intermediates/pre-dexed/debug/internal_impl-24.1.1_27ce57870b89994cbbd1341ff0dd67716a9a4ce9.jar" />
+        sha1="00368d943556041ea7e811a354e6002dd343923f">
+        <dex dex="/Users/Jan/AndroidStudioProjects/TravelAssistant/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_8d121a0476f989535943a7961476260b95778723/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/Audacia/AndroidStudioProjects/MyRoadMap/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
-        <dex dex="/Users/Audacia/AndroidStudioProjects/MyRoadMap/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.1.1_17c27ce01e2d257cf750d44fbb71e1c1fc63528d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Audacia/AndroidStudioProjects/MyRoadMap/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="c814e7d3b3bb3805d3eba90bd76fb6b300aa15ae">
-        <dex dex="/Users/Audacia/AndroidStudioProjects/MyRoadMap/app/build/intermediates/pre-dexed/debug/instant-run_9c945a6faeb02e16bd5783ea5adca72edc637abc.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Audacia/AndroidStudioProjects/MyRoadMap/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="5a28446b1dd28e633f88d7468dc24d1056bf4ddf">
-        <dex dex="/Users/Audacia/AndroidStudioProjects/MyRoadMap/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_df0552a2473e818031651d23f611e7a3931b40a0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Audacia/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.1/support-annotations-24.1.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
-        <dex dex="/Users/Audacia/AndroidStudioProjects/MyRoadMap/app/build/intermediates/pre-dexed/debug/support-annotations-24.1.1_5fc8b3b9382c368eb2c2c2946e80056335644795.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Audacia/AndroidStudioProjects/MyRoadMap/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
+        is-multidex="true"
+        jar="/Users/Jan/AndroidStudioProjects/TravelAssistant/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
         sha1="6d7d803871e3203465f71a163e7af104f807b446">
-        <dex dex="/Users/Audacia/AndroidStudioProjects/MyRoadMap/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.1.1_289062e019cc0cff5b4e55d51a430b3859d440b7.jar" />
+        <dex dex="/Users/Jan/AndroidStudioProjects/TravelAssistant/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.1.1_8de36d4ddce0dd62f93775d5681b17f59205c754/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/Audacia/AndroidStudioProjects/MyRoadMap/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/jars/classes.jar"
+        is-multidex="true"
+        jar="/Users/Jan/AndroidStudioProjects/TravelAssistant/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="1fe8e567305507ad5537100d283687a25735fecb">
+        <dex dex="/Users/Jan/AndroidStudioProjects/TravelAssistant/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c5eb81225338efca8ce364f79c567bf6b9eb7da2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jan/android-sdks/extras/android/m2repository/com/android/support/support-annotations/24.1.1/support-annotations-24.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="/Users/Jan/AndroidStudioProjects/TravelAssistant/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.1.1_09e87d657117e98ce2c07a275c07cc20340a446a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jan/AndroidStudioProjects/TravelAssistant/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="/Users/Jan/AndroidStudioProjects/TravelAssistant/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.1.1_4e93db1250ae7d9e52585eb165a5504f2b664843/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jan/AndroidStudioProjects/TravelAssistant/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
         sha1="f62e763609f65e47dc6c498760a4accf02776788">
-        <dex dex="/Users/Audacia/AndroidStudioProjects/MyRoadMap/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.1.1_b0d472d570510bc6c59537be9c7fa672e574d713.jar" />
+        <dex dex="/Users/Jan/AndroidStudioProjects/TravelAssistant/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.1.1_d0d287d6b2425cc7fe5b8f104cdedfbf106f4583/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/Audacia/AndroidStudioProjects/MyRoadMap/app/libs/libDaumMapAndroid.jar"
+        is-multidex="true"
+        jar="/Users/Jan/AndroidStudioProjects/TravelAssistant/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="a2ca14c67023cf9dfb7f79261593e4c014675ac6">
-        <dex dex="/Users/Audacia/AndroidStudioProjects/MyRoadMap/app/build/intermediates/pre-dexed/debug/libDaumMapAndroid_ba027cbab97ad2e80ff738260d206574073ce848.jar" />
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="/Users/Jan/AndroidStudioProjects/TravelAssistant/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.1.1_850644315db36efa0fbda396e9d453d26470c932/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/Audacia/AndroidStudioProjects/MyRoadMap/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/jars/classes.jar"
+        is-multidex="true"
+        jar="/Users/Jan/AndroidStudioProjects/TravelAssistant/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
         sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
-        <dex dex="/Users/Audacia/AndroidStudioProjects/MyRoadMap/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.1.1_2cab6cab041b318530a134f6471bc2a4b8fb92c7.jar" />
+        <dex dex="/Users/Jan/AndroidStudioProjects/TravelAssistant/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.1.1_2c6fefe2aca92e7fc0e4345d9df54fb497653f8a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jan/AndroidStudioProjects/TravelAssistant/app/libs/libDaumMapAndroid.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="a2ca14c67023cf9dfb7f79261593e4c014675ac6">
+        <dex dex="/Users/Jan/AndroidStudioProjects/TravelAssistant/app/build/intermediates/transforms/dex/debug/folders/1000/2/libDaumMapAndroid_ebe22bc43ab4fe1d5425ca206ee288b455ecf809/classes.dex" />
     </item>
 
 </items>

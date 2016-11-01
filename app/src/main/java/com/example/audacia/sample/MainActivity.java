@@ -75,7 +75,21 @@ public class MainActivity extends AppCompatActivity {
                 dialog_popup.show();
             }
         });
+
+        // TravelListView로 이동
+        Button btn_go = (Button) findViewById(R.id.bottom4);
+        btn_go.setOnClickListener(
+                new Button.OnClickListener() {
+                    public void onClick(View v) {
+                        //TravelListView로 가는 인텐트를 생성
+                        Intent intent = new Intent(v.getContext(), TravelListView.class);
+                        //액티비티 시작!
+                        startActivity(intent);
+                    }
+                }
+        );
     }
+
 
     //카메라관련 코드 시작3
     Button.OnClickListener mBtnCameraClick = new Button.OnClickListener() {
@@ -92,6 +106,7 @@ public class MainActivity extends AppCompatActivity {
             startActivityForResult(intent, CAPTURE_IMAGE_ACTIVITY_REQUEST_CODE);
         }
     };
+
 
     /**
      * Create a file Uri for saving an image or video

@@ -5,14 +5,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <ListView
-        android:id="@+id/listView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:divider="#ff0000"
-        android:dividerHeight="1dp" />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="60dp">
@@ -27,6 +19,14 @@
             android:id="@+id/inputBtn"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="input" />
+            android:text="Input" />
     </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:divider="@color/DisabledText"
+        android:dividerHeight="1dp" />
 </LinearLayout>

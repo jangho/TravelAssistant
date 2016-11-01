@@ -32,7 +32,7 @@ public class TravelListView extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.home);
+        setContentView(R.layout.activity_travel_list);
 
         homeItems.add(new HomeItem("부산 여행"));
         homeItems.add(new HomeItem("서울 여행"));
@@ -43,7 +43,7 @@ public class TravelListView extends Activity {
         listView = (ListView) findViewById(R.id.listView);
         inputText = (EditText) findViewById(R.id.inputText);
         inputBtn = (Button) findViewById(R.id.inputBtn);
-        homeAdapter = new HomeAdapter(this, R.layout.home_item, homeItems);
+        homeAdapter = new HomeAdapter(this, R.layout.activity_travel_list_item, homeItems);
         listView.setAdapter(homeAdapter);
 
         inputBtn.setOnClickListener(new View.OnClickListener() {
@@ -74,7 +74,7 @@ public class TravelListView extends Activity {
             View v = convertView;
             if (v == null) { //화면을 보여준다
                 LayoutInflater vi = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-                v = vi.inflate(R.layout.home_item, null);
+                v = vi.inflate(R.layout.activity_travel_list_item, null);
             }
             HomeItem item = items.get(position);
 
@@ -85,19 +85,19 @@ public class TravelListView extends Activity {
                 ImageView item_img = (ImageView) v.findViewById(R.id.item_img); //이미지뷰 찾기
                 switch (i % 5) { //순환하면서 색이 변하도록 조건문 작성
                     case 0:
-                        item_img.setBackgroundColor(Color.BLACK);
+                        item_img.setBackgroundColor(Color.BLUE);
                         break;
                     case 1:
-                        item_img.setBackgroundColor(Color.YELLOW);
+                        item_img.setBackgroundColor(Color.BLUE);
                         break;
                     case 2:
-                        item_img.setBackgroundColor(Color.GREEN);
+                        item_img.setBackgroundColor(Color.BLUE);
                         break;
                     case 3:
                         item_img.setBackgroundColor(Color.BLUE);
                         break;
                     case 4:
-                        item_img.setBackgroundColor(Color.RED);
+                        item_img.setBackgroundColor(Color.BLUE);
                         break;
                 }
             }
@@ -107,11 +107,9 @@ public class TravelListView extends Activity {
 
     class HomeItem { //원하는 데이터를 담는 클래스 작성 이를 이용하여 ArrayList를 만든다.
         private String itemText;
-
         public HomeItem(String itemText) {
             this.itemText = itemText;
         }
-
         public String getItemText() {
             return itemText;
         }

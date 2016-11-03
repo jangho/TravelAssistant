@@ -17,12 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:background="@drawable/button_img2"/>
-    <Button
-        android:id="@+id/bottom3"
-        android:layout_weight="1"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:background="@drawable/button_img3"/>
+
     <Button
         android:id="@+id/bottom4"
         android:layout_weight="1"

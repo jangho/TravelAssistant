@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/PrimaryText"
+    android:orientation="vertical"
+    tools:context="com.example.audacia.sample.Camera_Finish">
+
+    <include layout="@layout/upper_box"/>
+
+    <LinearLayout
+        android:id="@+id/travelNameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/PrimaryColor">
+
+        <TextView
+            android:id="@+id/addtravelName"
+            android:textColor="@color/PrimaryText"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textStyle="bold|italic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/bottom3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/button_img3"/>
+
+        <Button
+            android:id="@+id/btn_finish"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:background="@color/AccentColor"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:text="Finish"
+            android:textSize="50sp"
+            android:textColor="@color/PrimaryText"
+            android:textAlignment="center"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+    <include layout="@layout/bottom_box"/>
+
+</LinearLayout>

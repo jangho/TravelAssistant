@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import java.io.File;
+
 public class MainActivity extends AppCompatActivity {
 
     // Daum map api key
@@ -15,13 +17,25 @@ public class MainActivity extends AppCompatActivity {
 
     Button btn_secondPage;
     DialogPopup dialog_popup;
+    private static final String KEY_PHOTO_PATH = "photoPath";
+    private String photoName = null;
+    private File photoFile = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        //카메라관련 코드 시작2
+        // Check if anything in savedInstanceState Bundle.
+        // If so, Activity is being recreated after screen orientation change,
+        //   so get saved information from Bundle.
+        if (savedInstanceState != null) {
+            photoName = savedInstanceState.getString(KEY_PHOTO_PATH);
+        }
+        //카메라관련 코드 끝2
+
         setContentView(R.layout.activity_main);
 
-        btn_secondPage = (Button)findViewById(R.id.btn_start);
         findViewById(R.id.btn_start).setOnClickListener(mBtnSecondPage);
 
         dialog_popup = new DialogPopup(MainActivity.this);
@@ -50,13 +64,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, MapsActivity.class));
             }
         });
-
     }
 
     Button.OnClickListener mBtnSecondPage = new Button.OnClickListener() {
         @Override
         public void onClick(View v) {
-
             dialog_popup.show();
         }
     };

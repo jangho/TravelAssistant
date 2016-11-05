@@ -10,24 +10,6 @@
     <include layout="@layout/upper_box"/>
 
     <LinearLayout
-        android:id="@+id/travelNameLayout"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:background="@color/PrimaryColor"
-        android:visibility="gone">
-
-        <TextView
-            android:id="@+id/addtravelName"
-            android:textColor="@color/PrimaryText"
-            android:textSize="30sp"
-            android:gravity="center"
-            android:textStyle="bold|italic"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
-    </LinearLayout>
-
-    <LinearLayout
         android:orientation="vertical"
         android:layout_weight="1"
         android:layout_width="match_parent"

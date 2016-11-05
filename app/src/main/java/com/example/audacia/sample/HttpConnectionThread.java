@@ -22,6 +22,7 @@ public class HttpConnectionThread extends AsyncTask<String, Void, String> {
     private static double baseLatitude, baseLongitude;
     double latitude;
     double longitude;
+    public static int count = 0;
     private static boolean isFirst = false;
 
 
@@ -98,7 +99,8 @@ public class HttpConnectionThread extends AsyncTask<String, Void, String> {
             } catch (IOException e) {
 
             }
-          isFirst = true;
+            isFirst = true;
+            count++;
         }
             return response;
 
